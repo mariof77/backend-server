@@ -96,7 +96,6 @@ app.put('/:id', mdAutenticacion.verificaToken, (req, res) => {
 
 });
 
-
 // ==============================
 // Crear un nuevo usuario
 // ==============================
@@ -128,11 +127,9 @@ app.post('/', mdAutenticacion.verificaToken, (req, res) => {
             usuariotoken: req.usuario
         });
 
-
     });
 
 });
-
 
 // ==============================
 // Borrar un usuario por el id
