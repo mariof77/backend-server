@@ -21,5 +21,7 @@ app.get('/:tipo/:img', (req, res, next) => {
 
 });
 
+
+
 // es para que se pueda usar app en otros archivos
 module.exports = app;
